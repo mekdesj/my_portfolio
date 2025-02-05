@@ -4,26 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css"> <!-- If you're using a stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- Header Section -->
   <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm [Your Name], a passionate developer.</p>
+    <div class="video-background">
+      <video autoplay muted loop id="background-video">
+        <source src="assets/background.mp4" type="video/mp4">
+        <p>Your browser does not support the video tag.</p>
+      </video>
+    </div>
+    <!-- Content inside header -->
+    <div class="content-container">
+      <img src="assets/profile.jpg" alt="Your Profile Picture" class="profile-img">
+      <div class="header-text">
+        <h1>MEKDES MERGA</h1>
+        <p class="tagline">Passionate Software Engineer</p>
+      </div>
+    </div>
   </header>
 
+  <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Tell visitors about yourself—your background, interests, and what you're passionate about!</p>
+    <p>Hello, I am a software developer with experience in creating web and mobile applications. I enjoy building innovative solutions and learning new technologies.</p>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
     <h2>My Projects</h2>
-    <p>Showcase your work here! Add links to your GitHub repositories or live sites.</p>
+    <p>Here are some of the projects I have worked on:</p>
+    <ul>
+      <li><a href="#">Project 1 - Description</a></li>
+      <li><a href="#">Project 2 - Description</a></li>
+      <li><a href="#">Project 3 - Description</a></li>
+    </ul>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, you can reach me at:</p>
+    <p>Email: <a href="mailto:mekdesmerga19@gmail.com">mekdesmerga19@gmail.com</a></p>
+  </section>
+
+  <!-- Footer Section -->
   <footer>
-    <p>Contact me: [Your Email] | [LinkedIn] | [GitHub]</p>
+    <p>&copy; 2025 Mekdes Merga. All Rights Reserved.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>

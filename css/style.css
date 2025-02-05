@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#backgound-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+/* Header Styles */
+/* Ensure the header section takes up a smaller height */
+header {
+  position: relative;
+  height: 300px; /* Adjust the height of the header */
+  overflow: hidden;
+}
+
+/* Video Background inside header */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  /* Full width */
+  height: 100%;  /* Full height */
+  z-index: -1;  /* Keep video behind content */
+}
+
+#background-video {
+  width: 100%;  /* Ensure video covers the entire header */
+  height: 100%;  /* Ensure video covers the entire header */
+  object-fit: cover;  /* Keeps video aspect ratio intact */
+}
+
+/* Content container inside header, overlaid on top of the video */
+.content-container {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  display: flex;
+  align-items: center;
+  transform: translate(-50%, -50%); /* Center content */
+  text-align: center;
+  color: rgb(221, 240, 16);
+  font-weight: 300;
+  font-family: cursive;
+  z-index: 1; /* Ensure content is above video */
+}
+
+/* Profile picture styling */
+.profile-img {
+  width: 230px;  /* Adjust profile image size */
+  height: 300px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 3px solid rgb(179, 170, 170);  /* Optional: Adds a border around the profile picture */
+  margin-left: 20px;
+  margin-top: 170px;
+}
+
+/* Header text styling */
+.header-text h1 {
+  font-size: 2.5rem;  /* Adjust the size of your name */
+  margin: 10px 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+
+/* Section Styles */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* About Section */
+#about {
+  background-color: #e0f7fa;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #f1f8e9;
+}
+
+#projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#projects li {
+  margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9fbe7;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
