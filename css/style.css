@@ -128,3 +128,25 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Social Links Styling */
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 200px;
+  margin-right: 60;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: white; /* Default color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Unique Hover Colors */
+.social-links a:nth-child(1):hover { color: #333; }   /* GitHub - Dark Grey */
+.social-links a:nth-child(2):hover { color: #0077b5; } /* LinkedIn - Blue */
+.social-links a:nth-child(3):hover { color: #1da1f2; } /* Twitter - Light Blue */
+.social-links a:nth-child(4):hover { color: #ea4335; } /* Email - Red */
+.social-links a:nth-child(5):hover { color: #34a853; } /* Phone - Green */
