@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2 {
-  color: #333;
+  color: #0f0e0e;
 }
 
 a {
@@ -60,7 +60,7 @@ header {
   align-items: center;
   transform: translate(-50%, -50%); /* Center content */
   text-align: center;
-  color: rgb(221, 240, 16);
+  color: rgb(251, 251, 251);
   font-weight: 300;
   font-family: cursive;
   z-index: 1; /* Ensure content is above video */
@@ -73,7 +73,7 @@ header {
   border-radius: 30%;
   object-fit: cover;
   border: 3px solid rgb(179, 170, 170);  /* Optional: Adds a border around the profile picture */
-  margin-left: 20px;
+  margin-left: 70px;
   margin-top: 170px;
 }
 
@@ -145,8 +145,8 @@ footer {
 }
 
 /* Unique Hover Colors */
-.social-links a:nth-child(1):hover { color: #333; }   /* GitHub - Dark Grey */
+.social-links a:nth-child(1):hover { color: #600d77 !important; }   /* GitHub - Dark Grey */
 .social-links a:nth-child(2):hover { color: #0077b5; } /* LinkedIn - Blue */
 .social-links a:nth-child(3):hover { color: #1da1f2; } /* Twitter - Light Blue */
-.social-links a:nth-child(4):hover { color: #ea4335; } /* Email - Red */
+.social-links a:nth-child(4):hover { color: #2f12d3; } /* Email - Red */
 .social-links a:nth-child(5):hover { color: #34a853; } /* Phone - Green */
